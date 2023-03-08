@@ -5,12 +5,14 @@ import com.codestates.stamp.Stamp;
 import com.codestates.validator.NotSpace;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 
 public class MemberDto {
+    @NoArgsConstructor
     @Getter
     @AllArgsConstructor // TODO 테스트를 위해 추가됨
     public static class Post {
@@ -26,6 +28,7 @@ public class MemberDto {
         private String phone;
     }
 
+    @NoArgsConstructor
     @Getter
     @AllArgsConstructor
     public static class Patch {
@@ -47,6 +50,7 @@ public class MemberDto {
         }
     }
 
+    @NoArgsConstructor
     @AllArgsConstructor
     @Getter
     public static class Response {
