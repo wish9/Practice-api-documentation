@@ -1,0 +1,48 @@
+= 커피 주문 애플리케이션    // API 문서의 제목
+:sectnums:
+:toc: left
+:toclevels: 4
+:toc-title: Table of Contents
+:source-highlighter: prettify
+
+We Won Jong <wjwee9@gmail.com>   // API 문서를 생성한 사람의 정보
+
+v1.0.0, 2022.04.08    // API 문서의 생성 날짜
+
+// 테스트 케이스 실행을 통해 생성한 API 문서 스니핏을 사용하는 부분
+***
+== MemberController
+=== 회원 등록
+.curl-request
+include::{snippets}/post-member/curl-request.adoc[]
+
+.http-request
+include::{snippets}/post-member/http-request.adoc[]
+
+.request-fields
+include::{snippets}/post-member/request-fields.adoc[]
+
+.http-response
+include::{snippets}/post-member/http-response.adoc[]
+
+.response-headers
+include::{snippets}/post-member/response-headers.adoc[]
+
+=== 회원 정보 수정
+.curl-request
+// include::{snippets}/patch-member/curl-request.adoc[]
+//
+// .http-request
+// include::{snippets}/patch-member/http-request.adoc[]
+//
+// .path-parameters
+// include::{snippets}/patch-member/path-parameters.adoc[]
+//
+// .request-fields
+// include::{snippets}/patch-member/request-fields.adoc[]
+//
+// .http-response
+// include::{snippets}/patch-member/http-response.adoc[]
+//
+// .response-fields
+// include::{snippets}/patch-member/response-fields.adoc[]
